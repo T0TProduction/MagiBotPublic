@@ -35,11 +35,15 @@ Remove the oldest salt of a user
 Clear all the salt of a user
 #### k:salt reset
 Reset all the salt on the server, use this with caution
-###sound
+### sound
 Joinsound commands:
 #### k.sound [direct link to audio file]
 If you sent a file with the command that file will be set as your joinsound for this server. If not, the bot will try to load a file from the provided link as your joinsound.<br>
 Currently only **true** mp3 and wav formats are supported.
+#### k.sound rem
+Remove your joinsound.
+#### k:sound rem @User|userID|nickname
+Remove the sound of a specified user
 
 # Links
 [Invite me to your guild](https://discordapp.com/oauth2/authorize?client_id=384820232583249921&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.gg%2F2Evcf4T&scope=bot)<br>
