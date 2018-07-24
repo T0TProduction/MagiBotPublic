@@ -17,11 +17,10 @@ get the profile of yourself or the user you specified
 Start a vote with up to 20 different options. The maximum duration is 7 days.<br>
 The setup includes multiple steps which will be explained when you use the command.
 ## Fun commands
-### k.roll [multiplier]*[number of rolls]d<die number>[+ \<modifier\>]
+### k.roll [multiplier]\*[number of rolls]d<die number>[+ \<modifier\>]
 Roll dice with standard DnD syntax.<br>
 Examples: 5\*2d6+1, 3d6 + 12, 4\*d12 + 3, d100
-### salt 
-Salt commands:
+### Salt commands
 #### k.salt add @user|userID|nickname
 Report a user being salty. If you use nickname it has to be at least three characters long and unique.<br>
 This has a 1h cooldown for reporting the same user.
@@ -35,15 +34,28 @@ Remove the oldest salt of a user
 Clear all the salt of a user
 #### k:salt reset
 Reset all the salt on the server, use this with caution
-### sound
-Joinsound commands:
+### Joinsound commands
 #### k.sound [direct link to audio file]
 If you sent a file with the command that file will be set as your joinsound for this server. If not, the bot will try to load a file from the provided link as your joinsound.<br>
 Currently only **true** mp3 and wav formats are supported.
 #### k.sound rem
 Remove your joinsound.
 #### k:sound rem @User|userID|nickname
-Remove the sound of a specified user
+Remove the sound of a specified user.
+## Miscellaneous commands
+### k.bug \<bugreport with reproducable steps\>
+Report a bug you've encountered while using the bot.
+### k.dbl
+Subscribe to the vote-reminder to support MagiBot!
+### k.info
+Get some info about the bot, including links to various stuff.
+### k.ping
+Ping the bot.
+### k.stats
+Get some stats about the bot like number of guilds and users being served.
+## Admin commands
+  
+  TODO
 
 # Links
 [Invite me to your guild](https://discordapp.com/oauth2/authorize?client_id=384820232583249921&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.gg%2F2Evcf4T&scope=bot)<br>
