@@ -6,9 +6,10 @@ By default all commands start with the prefix k. , admin commands use k:<br>
 Admins can always override normal commands with k: to use them in non-command channels<br>
 explanation of syntax: \<required input\> , [optional input] , choose|one|of|these
 ## Utility commands
-### k.help [command]
-get a list of all the commands<br>
-use help <command> to get a detailed explanation of the command
+### k.help 
+get a list of all the commands.<br>
+#### k.help \<command\> 
+get a detailed explanation of the command and subcommands.
 ### k.invite
 let MagiBot create a 24h invite for the channel you used this command in
 ### k.profile [@User|userID|nickname]
