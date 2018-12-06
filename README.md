@@ -65,5 +65,5 @@ Get some stats about the bot like number of guilds and users being served.
 
 <a href="https://discordbots.org/bot/384820232583249921" ><img src="https://discordbots.org/api/widget/384820232583249921.svg" alt="MagiBot" /></a>
 <a href="https://bots.ondiscord.xyz/bots/384820232583249921"><img src="https://bots.ondiscord.xyz/bots/384820232583249921/embed?theme=dark&showGuilds=true" alt="MagiBot" /></a>
-
+[![Bots for Discord](https://botsfordiscord.com/api/bot/384820232583249921/widget)](https://botsfordiscord.com/bots/384820232583249921)
 <br>
